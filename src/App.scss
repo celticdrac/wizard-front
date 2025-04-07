@@ -1,0 +1,167 @@
+@import "styles/base";
+
+.app {
+  p {
+    color: $text-color;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+.square-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $step-color;
+  cursor: pointer;
+  position: relative;
+  margin-top: 3px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.square-checkbox:checked {
+  background-color: white;
+}
+
+.square-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #4CAF50;
+}
+
+.onboarding {
+  padding: 50px;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+button {
+  color: white;
+  background-color: $dark-green-color;
+}
+
+button:disabled {
+  background-color: $step-color;
+}
+
+main {
+  margin: 25px 75px;
+}
+
+h6 {
+  margin-top: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.header-line {
+  margin-left: 0;
+  border: none;
+  width: 55px;
+  background-color: $light-green-color;
+  height: 3px;
+}
+
+button {
+  border: none;
+  padding: 7px 17px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input {
+  border-radius: 2px;
+  width: 100%;
+  padding: 5px;
+}
+
+form.submitted {
+  input:required:invalid {
+    border: 2px solid red;
+  }
+  input:required:invalid + span {
+    color: red;
+    display: block;
+  }
+  .passwordContainer:has(input:required:invalid) + span {
+    color: red;
+    display: block;
+  }
+}
+
+form {
+  input + span.error {
+    display: none;
+  }
+  div + span.error {
+    display: none;
+  }
+  input:valid + span.error {
+    display: none;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.row > div:first-child {
+  flex: 0 0 auto;
+}
+.row > div:last-child {
+  flex: 1;
+  min-width: 300px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  gap: 25px;
+}
+
+.row2 > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.row img {
+  display: flex;
+  width: 150px;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 9px;
+}
+
+.passwordInnerContainer { 
+  position: 'relative';
+}
+

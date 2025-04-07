@@ -1,0 +1,23 @@
+{
+    "next": "Siguiente",
+    "previous": "Atrás",
+    "title": "Test Frontend Wheel Hub",
+    "required": "Campo obligatorio",
+    "noMatch": "Las contraseñas no coinciden",
+    "passwordErr": "Min 8 - Max 24 caracteres(Al menos 1 número y una mayúscula)",
+    "reset": "Volver al inicio",
+    "header": "¿Qué deberá realizar?",
+    "line0": "En la primera pestaña, deberá confiramr que es mayor de edad y que acepta el tratamiento de sus datos según la política de datos vigentes.",
+    "line1": "En la segunda pestaña, deberá crear un usuario, una contraseña y una pista para recordar la contraseña (como dato opcional).",
+    "line2": "En tercer lugar, deberá visualizarse el mensaje de éxito de creación.",
+    "check": "Confirma que es mayor de edad, y acepta el tratamiento de sus datos según la política de protección de datos vigente.",
+    "success": "¡La cuenta se creó correctamente!",
+    "latin": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "username": "Introduce tu usuario",
+    "password": "Crea tu Contraseña",
+    "repeat": "Repite tu Contraseña",
+    "note": "También puedes crear una pista que te ayude a recordar tu contraseña.",
+    "clueNote": "Crea tu pista que te ayude a recordar tu contraseña (opcional)",
+    "clue": "Introduce tu pista",
+    "maxLength": "Máximo 60 caracteres"
+  }
